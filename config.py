@@ -10,7 +10,7 @@ tf.app.flags.DEFINE_integer(
 
 tf.app.flags.DEFINE_integer(
     'epochs',
-    '5',
+    '100',
     'epochs')
 
 tf.app.flags.DEFINE_float(
@@ -24,8 +24,8 @@ tf.app.flags.DEFINE_float(
     'beta to get sigma.')
 
 tf.app.flags.DEFINE_string(
-    'flag_name',
-    'flag_attribution',
-    'Description.')
+    'model',
+    'mscnn',
+    'Model type')
 
 FLAGS = tf.app.flags.FLAGS
